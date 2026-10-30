@@ -13,6 +13,7 @@ To demonstrate practical GRC skills by applying NIST CSF 2.0 to simulated busine
 ## 📂 Repository Structure
 
 ```text
+NIST CSF 2.0
 ├── 01-risk-management/
 │   └── risk-register.xlsx           # Interactive risk register with scoring & mitigations
 └── 02-gap-analysis/
