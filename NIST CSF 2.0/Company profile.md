@@ -11,7 +11,7 @@
 
 ---
 
-## 💻 Technology Footprint & Environment
+## 💻 Technology & Environment
 
 * **Client Web Portal (Public-Facing):** Web-based portal used by e-commerce clients to track orders, manage shipments, and view real-time delivery status.
 * **Inventory Management System (Cloud):** SaaS-based software managing real-time stock levels, warehouse locations, and order processing.
