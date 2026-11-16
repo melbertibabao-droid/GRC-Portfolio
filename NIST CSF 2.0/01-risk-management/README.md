@@ -1,4 +1,4 @@
-# 🛡️ NIST CSF 2.0 Risk Management Portfolio
+# 🛡️ NIST CSF 2.0 Risk Management
 
 Welcome to my **Risk Management** repository! As an aspiring **GRC Analyst**, this folder showcases my hands-on projects, risk assessments, and templates strictly aligned with the **NIST Cybersecurity Framework (CSF) 2.0**.
 
