@@ -1,22 +1,11 @@
 # Risk Register
 
-![Status](https://img.shields.io/badge/Portfolio-Learning%20Project-blue)
-![Framework](https://img.shields.io/badge/Framework-NIST%20CSF%202.0-informational)
-![Scope](https://img.shields.io/badge/Scope-Fictional%20Scenario-lightgrey)
-
 ## 1. Project Disclaimer
 
 > \[!IMPORTANT\] **This is a fictional, educational portfolio project.**
 > The company, business processes, systems, risks, threat scenarios, and
 > proposed mitigations described in this repository are hypothetical and
 > were created for learning and demonstration purposes.
->
-> I am an aspiring Governance, Risk, and Compliance (GRC) Analyst. This
-> risk register is intended to demonstrate my understanding of basic
-> risk identification, assessment, prioritization, ownership, and
-> treatment planning. It does **not** represent a real organization, a
-> professional audit, a formal risk assessment, or verified security
-> findings.
 
 ## 2. Overview
 
@@ -56,7 +45,7 @@ to 25.
 
 > \[!NOTE\] The source workbook defines the likelihood and impact scales
 > but does not define formal score bands (for example, Low, Medium,
-> High, or Critical). This README therefore does not assign severity
+> High, or Critical). This file therefore does not assign severity
 > labels that are not present in the register.
 
 ## 4. Risk Register
@@ -143,47 +132,7 @@ These observations are based only on the scores and descriptions in this
 fictional register. They are not evidence that any mitigation has been
 implemented or that any risk has been reduced.
 
-## 6. Risk Treatment Tracking
-
-The workbook lists proposed mitigations but does not include
-implementation status, target dates, evidence, or residual risk. These
-are useful fields to add as the register develops.
-
-  -----------------------------------------------------------------------
-  Tracking field                      Purpose
-  ----------------------------------- -----------------------------------
-  Treatment status                    Track whether a mitigation is Not
-                                      Started, In Progress, Implemented,
-                                      or Deferred.
-
-  Target completion date              Set a target date for the agreed
-                                      treatment action.
-
-  Evidence / Reference                Link to supporting evidence, such
-                                      as a policy, configuration record,
-                                      test result, or meeting approval.
-
-  Residual likelihood                 Reassess likelihood after the
-                                      treatment is implemented and
-                                      tested.
-
-  Residual impact                     Reassess impact after the treatment
-                                      is implemented and tested.
-
-  Residual risk score                 Calculate the remaining risk using
-                                      residual likelihood × residual
-                                      impact.
-
-  Review date                         Record when the risk should next be
-                                      reviewed.
-  -----------------------------------------------------------------------
-
-> \[!WARNING\] Do not mark a mitigation as implemented or lower a risk
-> score simply because a control has been proposed. Confirm
-> implementation and assess whether the control is operating effectively
-> before updating the risk treatment and residual-risk information.
-
-## 7. How to Use This Register
+## 6. How to Use This Register
 
 1.  **Identify the risk:** Describe the gap, vulnerability, or condition
     that could create risk.
@@ -213,8 +162,6 @@ This exercise demonstrates the following introductory GRC activities:
 -   Prioritizing risks based on calculated scores.
 -   Proposing risk treatments.
 -   Assigning risk ownership.
--   Recognizing the difference between a proposed mitigation and a
-    tested, effective control.
 
 **Important distinction:** A risk register is a living management
 document. It should be reviewed and updated as the organization's
