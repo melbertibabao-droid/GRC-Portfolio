@@ -15,23 +15,7 @@ My work in this repository demonstrates practical application across the six NIS
 * **Respond (RS):** Taking action regarding a detected cybersecurity incident.
 * **Recover (RC):** Restoring capabilities or services impaired due to an incident.
 
-## 📂 Repository Contents
-
-| Folder / File | Description | 
-| :--- | :--- | 
-| **`/01-CSF-Gap-Analysis`** | Maturity assessments and gap analysis reports mapped to NIST CSF 2.0 profiles. | 
-| **`/02-Risk-Register`** | Risk register tracking inherent/residual risk scores, risk appetite, and remediation plans. | 
-| **`/03-Governance-and-Policies`** | Sample cybersecurity policies and third-party risk management (TPRM) templates aligned with the *Govern* function. | 
-
 ## 🧰 Tools & Skills
 
-* **Framework:** NIST CSF 2.0 (Core, Tiers, and Organizational Profiles)
-* **Risk Analysis:** Qualitative & Quantitative Risk Scoring, $5 \times 5$ Risk Matrices, Gap Analysis
-* **Tools:** Microsoft Excel, Markdown, Jira/Confluence
-
-## 🤝 Connect With Me
-
-Open to entry-level **GRC Analyst** or **Risk Analyst** roles!
-
-* **LinkedIn:** [Your LinkedIn URL](https://www.linkedin.com/)
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
+* **Framework:** NIST CSF 2.0
+* **Risk Analysis:** Qualitative & Quantitative Risk Scoring, $5 \times 5$ Risk Matrices
