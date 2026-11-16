@@ -1,7 +1,5 @@
 # NIST Cybersecurity Framework (CSF) 2.0 — Gap Analysis
 
-> **Portfolio Project | GRC / Cybersecurity Risk Management**
-
 ## Disclaimer
 
 This repository is a **fictional, educational portfolio project** created by an aspiring Governance, Risk, and Compliance (GRC) Analyst to demonstrate familiarity with the NIST Cybersecurity Framework (CSF) 2.0 and the gap analysis process.
@@ -21,15 +19,14 @@ This gap analysis identifies hypothetical weaknesses in a fictional organization
 
 The analysis is organized around the six NIST CSF 2.0 Functions:
 
-| NIST CSF 2.0 Function | Number of identified gaps |
+| NIST CSF 2.0 Function |
 |---|---:|
-| Govern | 3 |
-| Identify | 4 |
-| Protect | 3 |
-| Detect | 2 |
-| Respond | 3 |
-| Recover | 2 |
-| **Total** | **17** |
+| Govern |
+| Identify |
+| Protect |
+| Detect |
+| Respond |
+| Recover |
 
 ### Objectives
 
@@ -125,33 +122,7 @@ The register covers governance, asset and vulnerability identification, protecti
 | **Respond** | Incident response planning, stakeholder communication, incident response support |
 | **Recover** | Backup integrity verification, warehouse business continuity, post-incident improvement |
 
-## 5. Recommended Next Steps for a GRC Analyst
-
-The following are **suggested next steps for developing this portfolio exercise**. They are not documented findings or approved remediation decisions from the fictional organization.
-
-1. **Validate each gap:** Identify what evidence would confirm or disprove the observation, such as policies, asset inventories, access reviews, vulnerability reports, monitoring records, or incident response plans.
-2. **Determine applicability:** Confirm that each referenced CSF outcome is relevant to the organization's business context, technology, and risk profile.
-3. **Assess the current state:** Document the actual process or control in place, supported by evidence. Avoid assuming that a control is absent solely because documentation was not provided.
-4. **Define the desired state:** Agree on the target outcome and what acceptable implementation would look like.
-5. **Assess risk:** Evaluate likelihood, impact, existing safeguards, and business consequences using an approved risk methodology.
-6. **Develop a remediation plan:** Assign an accountable owner, actions, priority, target date, required resources, and measurable completion criteria.
-7. **Track and validate closure:** Retain evidence that the agreed action was implemented and operating as intended.
-
-### Example of evidence an analyst might request
-
-| Gap theme | Example evidence to request |
-|---|---|
-| Supplier risk management | Supplier inventory, due diligence records, security clauses, periodic supplier reviews |
-| Security roles and responsibilities | Security policies, RACI matrix, role descriptions, approval records |
-| OT/IoT asset discovery | OT/IoT asset inventory, network diagrams, discovery scan records |
-| Access control | Access control policy, user access listings, MFA configuration evidence, access review records |
-| Vulnerability management | Vulnerability scan reports, remediation tickets, exception approvals |
-| Incident response | Incident response plan, escalation matrix, tabletop exercise records |
-| Backup and recovery | Backup schedules, restore-test results, recovery procedures, continuity plans |
-
-> Evidence examples are illustrative. The analyst should request only appropriate evidence, follow organizational authorization and data-handling requirements, and protect confidential information.
-
-## 6. Limitations
+## 5. Limitations
 
 - This is a hypothetical gap register, not a completed NIST CSF Organizational Profile.
 - No interviews, document reviews, configuration reviews, vulnerability scans, or control tests were performed for a real organization.
@@ -159,21 +130,19 @@ The following are **suggested next steps for developing this portfolio exercise*
 - The listed Category Identifiers and Subcategory references are reproduced from the source workbook; their applicability and wording should be checked against the official NIST CSF 2.0 publication before use in a real engagement.
 - A gap does not automatically equal a confirmed risk, audit finding, or control failure. Further validation and risk analysis are required.
 
-## 7. Reference
+## 6. Reference
 
 - [NIST Cybersecurity Framework (CSF) 2.0 — Official publication](https://doi.org/10.6028/NIST.CSWP.29)
 - [NIST Cybersecurity Framework — Official website](https://www.nist.gov/cyberframework)
 
-## 8. Portfolio Learning Outcomes
+## 7. Portfolio Learning Outcomes
 
 Through this exercise, I aim to demonstrate the ability to:
 
 - Explain the purpose of a cybersecurity gap analysis.
 - Organize observations using the six NIST CSF 2.0 Functions.
 - Map hypothetical gaps to relevant framework Category Identifiers and Subcategory references.
-- Identify evidence that could be requested during a control assessment.
-- Understand the difference between an initial gap observation, a validated finding, a risk assessment, and a remediation plan.
 
 ---
 
-**Author note:** This project is part of my learning journey toward a career in Governance, Risk, and Compliance (GRC). It is intended to demonstrate my developing knowledge, analytical approach, and willingness to learn—not to claim professional audit experience or certification.
+**Author note:** This project is part of my learning journey toward a career in Governance, Risk, and Compliance (GRC). It is intended to demonstrate my developing knowledge, analytical approach, and willingness to learn not to claim professional audit experience or certification.
