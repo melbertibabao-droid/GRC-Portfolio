@@ -50,71 +50,25 @@ to 25.
 
 ## 4. Risk Register
 
-  ------------------------------------------------------------------------------------------------------------------
-  Risk ID NIST CSF   Gap /           Threat Scenario    Likelihood    Impact      Risk Proposed        Risk Owner
-          Function   Vulnerability   & Potential                                 Score Mitigation      
-                                     Impact                                                            
-  ------- ---------- --------------- ---------------- ------------ --------- --------- --------------- -------------
-  R-01    Govern     Third-Party &   Dual-warehouse              3         5    **15** Enforce vendor  IT Manager /
-                     Supply Chain    fulfillment halt                                  risk            Legal
-                     Governance      and client data                                   assessments and 
-                                     exposure via                                      security SLAs.  
-                                     Inventory SaaS                                                    
-                                     outage/breach.                                                    
-
-  R-02    Identify   Warehouse       Unpatched                   4         3    **12** Deploy          Warehouse IT
-                     Hardware Asset  warehouse                                         automated       Ops
-                     Inventory       devices                                           network         
-                                     (scanners,                                        discovery and   
-                                     printers,                                         centralize      
-                                     terminals)                                        asset inventory 
-                                     create network                                    across 3 sites. 
-                                     entry points.                                                     
-
-  R-03    Protect    Access Control  Unauthorized                4         5    **20** Enforce MFA on  IT Security /
-                     & Mandatory MFA account access                                    all logins and  Admin
-                                     enabling fraud                                    implement       
-                                     and data theft.                                   strict RBAC.    
-
-  R-04    Detect     Web Application Unauthorized                3         5    **15** Deploy a Web    App
-                     Monitoring      data extraction                                   Application     Development
-                                     via automated                                     Firewall (WAF)  Lead
-                                     web portal                                        with active     
-                                     attacks.                                          alerting and    
-                                                                                       rate-limiting   
-                                                                                       on the client   
-                                                                                       web portal.     
-
-  R-05    Respond    Incident        Uncoordinated               3         5    **15** Draft a formal  IT Manager /
-                     Response Plan   ransomware                                        Incident        Leadership
-                     (IRP)           responses                                         Response Plan   
-                                     prolong                                           (IRP) with      
-                                     warehouse                                         clear roles and 
-                                     downtime, delay                                   run annual      
-                                     last-mile                                         tabletop        
-                                     deliveries, and                                   exercises.      
-                                     increase costs.                                                   
-
-  R-06    Recover    Warehouse       Extended                    3         5    **15** Deploy dual-ISP Operations /
-                     Business        Wi-Fi/ISP outage                                  cellular        Network
-                     Continuity      halts warehouse                                   failover and    
-                                     operations                                        offline         
-                                     (scanning,                                        dispatch        
-                                     printing,                                         procedures at   
-                                     dispatching).                                     both            
-                                                                                       warehouses.     
-  ------------------------------------------------------------------------------------------------------------------
+| Risk ID | NIST CSF Function | Gap / Vulnerability | Threat Scenario & Potential Impact | Likelihood | Impact | Risk Score | Proposed Mitigation | Risk Owner |
+|---|---|---|---|:---:|:---:|:---:|---|---|
+| R-01 | Govern | Third-Party & Supply Chain Governance | Dual-warehouse fulfillment halt and client data exposure via Inventory SaaS outage/breach. | 3 | 5 | **15** | Enforce vendor risk assessments and security SLAs. | IT Manager / Legal |
+| R-02 | Identify | Warehouse Hardware Asset Inventory | Unpatched warehouse devices (scanners, printers, terminals) create network entry points. | 4 | 3 | **12** | Deploy automated network discovery and centralize asset inventory across 3 sites. | Warehouse IT Ops |
+| R-03 | Protect | Access Control & Mandatory MFA | Unauthorized account access enabling fraud and data theft. | 4 | 5 | **20** | Enforce MFA on all logins and implement strict RBAC. | IT Security / Admin |
+| R-04 | Detect | Web Application Monitoring | Unauthorized data extraction via automated web portal attacks. | 3 | 5 | **15** | Deploy a Web Application Firewall (WAF) with active alerting and rate-limiting on the client web portal. | App Development Lead |
+| R-05 | Respond | Incident Response Plan (IRP) | Uncoordinated ransomware responses prolong warehouse downtime, delay last-mile deliveries, and increase costs. | 3 | 5 | **15** | Draft a formal Incident Response Plan (IRP) with clear roles and run annual tabletop exercises. | IT Manager / Leadership |
+| R-06 | Recover | Warehouse Business Continuity | Extended Wi-Fi/ISP outage halts warehouse operations (scanning, printing, dispatching). | 3 | 5 | **15** | Deploy dual-ISP cellular failover and offline dispatch procedures at both warehouses. | Operations / Network |
 
 ## 5. Risk Register Summary
 
-  Metric                               Result
-  ------------------------------- -----------
-  Total risks documented                    6
-  Highest risk score                20 (R-03)
-  Lowest risk score                 12 (R-02)
-  Average risk score                    15.33
-  Risks with likelihood rated 4             2
-  Risks with impact rated 5                 5
+| Metric | Result |
+|---|---:|
+| Total risks documented | 6 |
+| Highest risk score | 20 (R-03) |
+| Lowest risk score | 12 (R-02) |
+| Average risk score | 15.33 |
+| Risks with likelihood rated 4 | 2 |
+| Risks with impact rated 5 | 5 |
 
 ### Initial observations
 
