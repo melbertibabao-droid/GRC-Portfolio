@@ -17,4 +17,4 @@ NIST CSF 2.0
 ├── 01-risk-management/
 │   └── risk-register.md        
 └── 02-gap-analysis/
-    └── csf-2.0-gap-analysis.md      
+    └── gap-analysis.md      
